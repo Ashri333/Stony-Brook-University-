@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stevens Institute of Technology | Freshman Recruitment & Guide</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+              <img src="logo.png" alt="Stevens Logo" height="40" class="me-2">
+                <div class="brand-text">
+                    <span class="fw-bold d-block text-white lh-1">STEVENS</span>
+                    <span class="badge text-bg-danger text-dark px-2 py-0 fs-8 fw-bold">INSTITUTE OF TECHNOLOGY</span>
+                </div>
+            </a>
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+              
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#student-life">Student Life</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hoboken-map">Campus & Hoboken</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cost">Cost & Aid</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-danger rounded-pill fw-bold px-3 shadow-sm" href="https://go.graduate.stevens.edu/learn?utm_source=google&utm_medium=cpc&utm_campaign=1131_grad_branded&utm_content=grad&utm_segment=g&utm_term=stevens%20institute%20of%20technology&eab_mrkt_id=160393672993&gad_source=1&gad_campaignid=21018870639&gbraid=0AAAAAp6Op9xi-Cmng9g28oYMARvhr_r4l&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6d9gjrBxFVmML2ENsP7T8Bd2_6tin3O2A5pCLN2F8wn0rGgwvlFWUkaAo_NEALw_wcB" target="_blank" rel="noopener">
+                            Visit Campus
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center position-relative overflow-hidden">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative z-1 text-white py-5">
+           
+            <h1 class="display-3 fw-extrabold mb-3 text-glow">
+                Welcome to Stevens, <span id="heroStudentName" class="text-warning">Future Duck</span>! 
+            </h1>
+            <p class="lead max-w-700 mx-auto mb-4 fs-4 text-light-shadow">
+                Where Manhattan skyline views meet world-class technology, innovation, and an incredible campus vibe right on the Hudson River in Hoboken, NJ.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="https://go.graduate.stevens.edu/learn?utm_source=google&utm_medium=cpc&utm_campaign=1131_grad_branded&utm_content=grad&utm_segment=g&utm_term=stevens%20institute%20of%20technology&eab_mrkt_id=160393672993&gad_source=1&gad_campaignid=21018870639&gbraid=0AAAAAp6Op9xi-Cmng9g28oYMARvhr_r4l&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6d9gjrBxFVmML2ENsP7T8Bd2_6tin3O2A5pCLN2F8wn0rGgwvlFWUkaAo_NEALw_wcB" target="_blank" rel="noopener" class="btn btn-danger btn-lg pill-btn fw-bold shadow">
+                    Schedule Campus Visit 
+                </a>
+                <a href="https://www.commonapp.org/" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg pill-btn fw-bold">
+                    Apply Now
+                </a>
+            </div>
+            
+            <div class="row mt-5 pt-4 g-3 justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="hero-stat-card">
+                        <h3 class="fw-bold text-warning mb-0">#15</h3>
+                        <p class="small text-white-50 mb-0">Best Career Placement</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="hero-stat-card">
+                        <h3 class="fw-bold text-warning mb-0">97.3%</h3>
+                        <p class="small text-white-50 mb-0">Employed / Grad School</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="hero-stat-card">
+                        <h3 class="fw-bold text-warning mb-0">10 Min</h3>
+                        <p class="small text-white-50 mb-0">PATH Train to NYC</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Personalized Welcome Banner -->
+    <div class="bg-warning py-3 shadow-sm border-bottom">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+            <div class="d-flex align-items-center gap-2">
+                
+                <div>
+                    <span class="fw-bold text-dark fs-5" id="bannerGreeting">Hi Future Duck!</span>
+                    <span class="text-dark opacity-75 ms-2 d-none d-md-inline" id="bannerMajorText">Ready to explore options for your freshman year?</span>
+                </div>
+            </div>
+            <button class="btn btn-sm btn-dark rounded-pill fw-bold" onclick="openNameModal()">
+                 Change Name / Interest
+            </button>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="position-relative">
+                        <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=1000" alt="Stevens Campus View" class="img-fluid rounded-4 shadow-lg custom-img-border">
+                        <div class="badge-float p-3 bg-white rounded-3 shadow text-dark d-flex align-items-center gap-3">
+                            <div>
+                                <h6 class="fw-bold mb-0">Hoboken, New Jersey</h6>
+                                <small class="text-muted">Voted #1 Best College Town Vibe</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="text-danger fw-bold text-uppercase tracking-wider">About Stevens</span>
+                    <h2 class="display-5 fw-bold text-dark mt-1 mb-3">Innovation on the Hudson</h2>
+                    <p class="lead text-secondary">
+                        Founded in 1870, Stevens Institute of Technology is a premier private research university situated directly across from the Manhattan skyline.
+                    </p>
+                    <p class="text-muted">
+                        Stevens blends rigorous engineering, computer science, business, and humanities degrees with unmatched access to New York City industry partners and tech hubs.
+                    </p>
+
+                    <div class="row g-3 mt-2">
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border-start border-4 border-danger">
+                                <h6 class="fw-bold text-dark mb-1">NYC Advantage</h6>
+                                <p class="small text-muted mb-0">Intern in Manhattan while living in safe, walkable Hoboken.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="p-3 bg-light rounded-3 border-start border-4 border-warning">
+                                <h6 class="fw-bold text-dark mb-1">Tech First</h6>
+                                <p class="small text-muted mb-0">Every single major integrates technology and hands-on projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-danger fw-bold text-uppercase tracking-wider">Top Majors</span>
+                <h2 class="display-5 fw-bold text-dark">Find Your Passion</h2>
+                <p class="text-muted">Explore top-rated programs designed to launch high-paying tech and engineering careers.</p>
+                
+                <!-- Filter Buttons -->
+                <div class="d-flex flex-wrap justify-content-center gap-2 mt-3" id="programFilters">
+                    <button class="btn btn-danger rounded-pill px-3 fw-bold filter-btn active" data-filter="all">All Majors</button>
+                    <button class="btn btn-outline-secondary rounded-pill px-3 fw-bold filter-btn" data-filter="engineering">Engineering</button>
+                    <button class="btn btn-outline-secondary rounded-pill px-3 fw-bold filter-btn" data-filter="tech">Computer Science</button>
+                    <button class="btn btn-outline-secondary rounded-pill px-3 fw-bold filter-btn" data-filter="business">Business</button>
+                </div>
+            </div>
+
+            <div class="row g-4" id="programsGrid">
+                <!-- Program Card 1 -->
+                <div class="col-md-6 col-lg-4 program-item" data-category="tech">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            
+                            <span class="badge text-bg-danger mb-2">Most Popular</span>
+                            <h4 class="card-title fw-bold">Computer Science</h4>
+                            <p class="card-text text-muted">Master AI, cybersecurity, software engineering, and full-stack development with direct pathways to Big Tech companies.</p>
+                            <ul class="list-unstyled small text-secondary mt-3">
+                                <li>Avg Starting Salary: $98,000</li>
+                                <li>Co-op Internship Options</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program Card 2 -->
+                <div class="col-md-6 col-lg-4 program-item" data-category="engineering">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            
+                            <span class="badge text-bg-warning text-dark mb-2">ABET Accredited</span>
+                            <h4 class="card-title fw-bold">Mechanical Engineering</h4>
+                            <p class="card-text text-muted">Design robotics, aerospace tech, energy systems, and modern vehicles in state-of-the-art campus prototyping labs.</p>
+                            <ul class="list-unstyled small text-secondary mt-3">
+                                <li>Hands-on Senior Design Expo</li>
+                                <li>Robotics & CAD Labs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Program Card 3 -->
+                <div class="col-md-6 col-lg-4 program-item" data-category="business">
+                    <div class="card h-100 border-0 shadow-sm custom-card">
+                        <div class="card-body p-4">
+                            
+                            <span class="badge text-bg-info text-white mb-2">High Demand</span>
+                            <h4 class="card-title fw-bold">Quantitative Finance</h4>
+                            <p class="card-text text-muted">Combine Wall Street financial strategy with modern data science, Python analytics, and algorithmic trading.</p>
+                            <ul class="list-unstyled small text-secondary mt-3">
+                                <li>Bloomberg Terminal Access</li>
+                                <li>Wall Street Recruiter Network</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="https://www.stevens.edu/academics/program-finder" target="_blank" rel="noopener" class="btn btn-outline-danger pill-btn fw-bold">
+                    Explore All 35+ Majors on Stevens.edu 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Life & Freshman Guide -->
+    <section id="student-life" class="py-5">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-danger fw-bold text-uppercase tracking-wider">Campus Culture</span>
+                <h2 class="display-5 fw-bold text-dark">Life as a Stevens Freshman</h2>
+                <p class="text-muted">From residence halls overlooking Manhattan to over 100+ active student clubs and Division III varsity sports.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="student-life-card p-4 rounded-4 bg-white border shadow-sm text-center h-100">
+                        <div class="avatar-icon bg-danger text-white rounded-circle mx-auto mb-3">
+                           
+                        </div>
+                        <h4 class="fw-bold">Modern Dorms</h4>
+                        <p class="text-muted small">University Center Towers feature floor-to-ceiling windows with NYC views, modern dining halls, and study lounges.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="student-life-card p-4 rounded-4 bg-white border shadow-sm text-center h-100">
+                        <div class="avatar-icon bg-warning text-dark rounded-circle mx-auto mb-3">
+                          
+                        </div>
+                        <h4 class="fw-bold">100+ Clubs & Greek Life</h4>
+                        <p class="text-muted small">Join esports teams, robotics clubs, cultural organizations, performing arts, or student government.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="student-life-card p-4 rounded-4 bg-white border shadow-sm text-center h-100">
+                        <div class="avatar-icon bg-success text-white rounded-circle mx-auto mb-3">
+                            
+                        </div>
+                        <h4 class="fw-bold">NCAA Div III Athletics</h4>
+                        <p class="text-muted small">25 varsity sports teams known as the Stevens Ducks, plus intramural leagues and modern fitness complexes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus & Hoboken Interactive Map Section -->
+    <section id="hoboken-map" class="py-5 bg-dark text-white">
+        <div class="container py-4">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-5">
+                    <span class="badge text-bg-warning fw-bold mb-2">Interactive Campus Map</span>
+                    <h2 class="display-5 fw-bold text-white mb-3">Explore Hoboken & Campus Hotspots</h2>
+                    <p class="text-white-50">Click on any hotspot badge below to preview key locations every freshman needs to know!</p>
+                    
+                    <div class="list-group list-group-custom gap-2 mt-4" id="mapHotspotList">
+                        <button class="list-group-item list-group-item-action rounded-3 border-0 p-3 active" onclick="selectHotspot(0)">
+                           </i> <strong>University Center & Dining</strong>
+                            <div class="small text-white-50">Central dining hall and residence tower.</div>
+                        </button>
+                        <button class="list-group-item list-group-item-action rounded-3 border-0 p-3" onclick="selectHotspot(1)">
+                             <strong>Hoboken PATH Station</strong>
+                            <div class="small text-white-50">10-minute subway ride directly to World Trade Center & NYC.</div>
+                        </button>
+                        <button class="list-group-item list-group-item-action rounded-3 border-0 p-3" onclick="selectHotspot(2)">
+                             <strong>Washington Street Eats</strong>
+                            <div class="small text-white-50">Famous pizza spots, cafes, and late-night study bites.</div>
+                        </button>
+                        <button class="list-group-item list-group-item-action rounded-3 border-0 p-3" onclick="selectHotspot(3)">
+                            <strong>Babbio Center & Gateway</strong>
+                            <div class="small text-white-50">High-tech classrooms and engineering design labs.</div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+                    <div class="map-container rounded-4 shadow-lg overflow-hidden position-relative border border-secondary" id="mapDisplayCard">
+                        <img id="mapHotspotImage" src="https://images.unsplash.com/photo-1671761262836-459c0a27c4a5?q=80&w=435&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="w-100 map-img" alt="Hoboken Map Spot">
+                        <div class="map-overlay-info p-4">
+                            <span class="badge bg-warning text-dark mb-2" id="mapSpotCategory">Campus Hub</span>
+                            <h3 class="fw-bold text-white mb-1" id="mapSpotTitle">University Center & Dining</h3>
+                            <p class="text-light small mb-3" id="mapSpotDesc">The heart of freshman campus life! Features incredible dining halls with Manhattan skyline views, student study lounges, and residence halls.</p>
+                            <a id="mapSpotLink" href="https://www.stevens.edu/" target="_blank" rel="noopener" class="btn btn-sm btn-light fw-bold rounded-pill">
+                                Learn More 
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost & Admissions Section with Interactive Calculator -->
+    <section id="cost" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-danger fw-bold text-uppercase tracking-wider">Tuition & Financial Aid</span>
+                <h2 class="display-5 fw-bold text-dark">Investment in Your Future</h2>
+                <p class="text-muted">99% of incoming freshmen receive merit scholarships or financial aid packages.</p>
+            </div>
+
+            <div class="row g-4 align-items-center">
+                <!-- Interactive Calculator Widget -->
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm rounded-4 p-4">
+                        <h4 class="fw-bold text-dark mb-3">Quick Tuition & Aid Estimator</h4>
+                        <p class="small text-muted mb-4">Calculate an estimated annual tuition total based on housing and aid choices:</p>
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small">Select Student Type:</label>
+                            <select class="form-select rounded-3" id="calcStudentType" onchange="calculateTuition()">
+                                <option value="60900">Full-Time Undergraduate ($60,900 / yr)</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small">Housing Plan:</label>
+                            <select class="form-select rounded-3" id="calcHousing" onchange="calculateTuition()">
+                                <option value="17500">On-Campus Dorm & Unlimited Meal Plan (+$17,500)</option>
+                                <option value="0">Commuter / Living at Home ($0)</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-bold small">Estimated Annual Scholarship/Aid:</label>
+                            <input type="range" class="form-range" min="0" max="40000" step="2500" id="calcAidRange" value="15000" oninput="calculateTuition()">
+                            <div class="d-flex justify-content-between small text-muted">
+                                <span>$0</span>
+                                <span class="fw-bold text-success fs-6" id="aidRangeValue">$15,000</span>
+                                <span>$40,000</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-light p-3 rounded-3 mt-3 border d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="text-muted small d-block">Estimated Net Cost / Year:</span>
+                                <span class="fs-2 fw-extrabold text-danger" id="calcFinalCost">$63,400</span>
+                            </div>
+                            <span class="badge text-bg-success">Estimate Only</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Admissions Deadlines & Info -->
+                <div class="col-lg-6">
+                    <div class="ps-lg-3">
+                        <h3 class="fw-bold mb-4">Admissions Deadlines</h3>
+                        
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="badge-date bg-danger text-white rounded-3 p-3 text-center min-w-80">
+                                <span class="d-block fw-bold fs-4">NOV 15</span>
+                                <span class="small opacity-75">Early</span>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Early Decision I</h5>
+                                <p class="text-muted small mb-0">Binding agreement for students who know Stevens is their top choice school.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex gap-3 mb-4">
+                            <div class="badge-date bg-warning text-dark rounded-3 p-3 text-center min-w-80">
+                                <span class="d-block fw-bold fs-4">JAN 15</span>
+                                <span class="small opacity-75">Regular</span>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-1">Regular Decision & Early Decision II</h5>
+                                <p class="text-muted small mb-0">Standard application deadline with merit scholarship consideration.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-3 bg-white border rounded-3 shadow-sm">
+                            <h6 class="fw-bold text-dark mb-1">Test-Optional Admissions</h6>
+                            <p class="small text-muted mb-0">SAT/ACT scores are optional for undergraduate applicants!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive FAQ Section -->
+    <section class="py-5">
+        <div class="container py-4">
+            <div class="text-center max-w-700 mx-auto mb-5">
+                <span class="text-danger fw-bold text-uppercase tracking-wider">Got Questions?</span>
+                <h2 class="display-5 fw-bold text-dark">Freshman FAQ</h2>
+            </div>
+
+            <div class="accordion custom-accordion mx-auto max-w-800" id="faqAccordion">
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            How easy is it to get into New York City from campus?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Super easy! The Hoboken PATH train station is a short 10-minute walk down the street from dorms. The PATH train takes you directly into Manhattan (33rd Street or World Trade Center) in under 10 minutes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Are all freshmen required to live on campus?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            First-year students who reside outside a local commuting radius are guaranteed and required to live in university housing, usually in the University Center or campus residence halls.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border-0 mb-3 rounded-3 shadow-sm">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed fw-bold rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            What is the Co-op Program?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Stevens offers a popular Cooperative Education program where engineering and science students alternate classroom semesters with paid, full-time professional industry work experience.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Call to Action Section -->
+    <section class="py-2 text-white position-relative text-center bg-danger overflow-hidden">
+        <div class="container py-4 position-relative z-1">
+            <h2 class="display-4 fw-extrabold mb-3">Ready to Join the Stevens Family?</h2>
+            <p class="lead max-w-700 mx-auto mb-4 text-light">
+                Take the next step in your college search. Schedule a tour of campus or submit your application online.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="https://go.graduate.stevens.edu/learn?utm_source=google&utm_medium=cpc&utm_campaign=1131_grad_branded&utm_content=grad&utm_segment=g&utm_term=stevens%20institute%20of%20technology&eab_mrkt_id=160393672993&gad_source=1&gad_campaignid=21018870639&gbraid=0AAAAAp6Op9xi-Cmng9g28oYMARvhr_r4l&gclid=Cj0KCQjwt9jVBhDXARIsAFSP-6d9gjrBxFVmML2ENsP7T8Bd2_6tin3O2A5pCLN2F8wn0rGgwvlFWUkaAo_NEALw_wcB" target="_blank" rel="noopener" class="btn btn-warning btn-lg pill-btn fw-bold shadow">
+                    Schedule Campus Visit
+                </a>
+                <a href="https://www.commonapp.org/" target="_blank" rel="noopener" class="btn btn-light btn-lg pill-btn fw-bold text-danger">
+                    Apply via Common App
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white-50 py-4 border-top border-secondary">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-3">
+
+        <!-- Copyright Information -->
+        <div>
+            <p class="mb-0 small">
+                &copy; 2026 Stevens Institute of Technology • WDPP Year 3 College Website
+            </p>
+
+            <p class="mb-0 small text-white-50">
+                Made by Ashritha (No stealing my idea!)  • Marlboro High School
+            </p>
+        </div>
+
+        <!-- Website and Social Media Images -->
+        <div class="d-flex align-items-center gap-3">
+
+            <!-- Stevens Website -->
+            <a href="https://www.stevens.edu"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Stevens Institute of Technology website"
+               title="Stevens.edu">
+
+                <img src="footerweb.png"
+                     alt="Stevens website"
+                     class="footer-social-icon">
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/stevens1870"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Stevens Instagram"
+               title="Instagram">
+
+                <img src="insta.png"
+                     alt="Instagram"
+                     class="footer-social-icon">
+            </a>
+
+            <!-- YouTube -->
+            <a href="https://www.youtube.com/user/Stevens1870"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Stevens YouTube"
+               title="YouTube">
+
+                <img src="youteb.png"
+                     alt="YouTube"
+                     class="footer-social-icon">
+            </a>
+
+        </div>
+    </div>
+</footer>
+
+    <!-- Interactive Floating Attila Duck Widget -->
+<div class="attila-widget shadow-lg" id="attilaWidget">
+
+    <!-- Tip Bubble -->
+    <div class="attila-popover p-3 rounded-3 bg-white text-dark shadow border" id="attilaBubble">
+
+        <div class="d-flex justify-content-between align-items-center mb-1">
+            <strong class="text-danger small">Attila's Freshman Tip:</strong>
+
+            <button 
+                type="button" 
+                class="btn-close fs-8" 
+                onclick="toggleAttilaBubble()">
+            </button>
+        </div>
+
+        <p class="small mb-2" id="attilaTipText">
+            Click me anytime for a freshman secret tip about campus life!
+        </p>
+
+        <button 
+            class="btn btn-xs btn-danger rounded-pill fw-bold" 
+            onclick="getNewDuckTip()">
+            New Tip!
+        </button>
+
+    </div>
+
+    <!-- Attila Duck -->
+    <button 
+        class="attila-avatar-btn shadow" 
+        onclick="toggleAttilaBubble()" 
+        title="Attila the Duck Freshman Bot">
+
+        <img 
+            src="DUCKYYY.png" 
+            alt="Attila the Duck"
+            class="attila-duck">
+
+    </button>
+
+</div>
+
+    <!-- Modal for Name Entry Popup -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content border-0 rounded-4 shadow-lg overflow-hidden">
+                <div class="modal-header bg-danger text-white border-0 py-3">
+                    <h5 class="modal-title fw-bold d-flex align-items-center gap-2">
+                         Welcome to Stevens Guide!
+                    </h5>
+                </div>
+                <div class="modal-body p-4">
+                    <p class="text-muted">Let us customize your prospective student experience!</p>
+                    <form id="welcomeForm" onsubmit="saveStudentInfo(event)">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-dark">What is your name?</label>
+                            <input type="text" class="form-control rounded-3" id="modalStudentName" placeholder="e.g. Alex" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold text-dark">Intended Major / Interest Area:</label>
+                            <select class="form-select rounded-3" id="modalStudentMajor">
+                                <option value="Computer Science">Computer Science / Software</option>
+                                <option value="Engineering">Mechanical / Robotics Engineering</option>
+                                <option value="Business & Finance">Quantitative Finance / Business</option>
+                                <option value="Undecided">Undecided / Exploring Options</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100 pill-btn fw-bold py-2">
+                            Explore Stevens Campus 
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
